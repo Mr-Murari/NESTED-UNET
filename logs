@@ -1,0 +1,10 @@
+conda create -n unet python=3.6
+
+conda activate unet
+
+conda install -c anaconda scikit-learn
+
+>conda install tensorboardX
+>conda install torchvision
+change in metadata.json dataset_dir": "../CDData/subset/ to dataset_dir": "../CDData/Real/subset/
+
